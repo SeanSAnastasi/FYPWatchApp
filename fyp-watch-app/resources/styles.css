@@ -1,12 +1,31 @@
-.defaultText {
-  font-size: 32;
+.sensor-label {
   font-family: System-Regular;
-  font-weight: regular;
+  fill: white;
+  text-anchor: middle;
   text-length: 32;
+  font-size: 20;
+  x: 50%;
+  y: $+5;
 }
 
-#background {
-  width: 100%;
-  height: 100%;
-  fill: white;
+.sensor-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 20;
+  x: 50%;
+  y: $;
+}
+
+#sensorRect{
+  fill: blue
+}
+
+.application-fill           { fill: fb-yellow; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#myButton #text {
+  text-buffer: "BUTTON";
 }

@@ -13,7 +13,10 @@
     "appDisplayName": "Fyp Watch App",
     "iconFile": "resources/icon.png",
     "wipeColor": "#ffffff",
-    "requestedPermissions": [],
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_internet"
+    ],
     "buildTargets": [
       "atlas",
       "vulcan"
@@ -24,5 +27,6 @@
   "scripts": {
     "build": "fitbit-build",
     "debug": "fitbit"
-  }
+  },
+  "dependencies": {}
 }
